@@ -1,13 +1,12 @@
 import React from 'react';
+import Jumbotron from './Jumbotron.component';
+import Projects from './Projects.component';
 
 const Main = () => {
     return (
         <div>
-            Main
-            {/* <label htmlFor="eng">ENG </label>
-                <input type="checkbox" name="lang" value="eng" checked>eng</input>
-            <label htmlFor="pl">PL </label>
-                <input type="checkbox" name="lang" value="pl">pl</input>             */}
+            <Jumbotron />
+            <Projects />
         </div>
     )
 }

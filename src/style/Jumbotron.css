@@ -1,0 +1,88 @@
+h1,
+h2 {
+    font-weight: 800; 
+    font-family: "Raleway", sans-serif;
+}
+
+.jumbotron {
+    opacity: 0;
+    height: 100vh;
+    animation: .5s ease-out 1s forwards fade-in;
+    position: relative;
+    display: grid;
+    grid-template-columns: 10vw repeat(3, 1fr) 10vw;
+    column-gap: 5vw;
+}
+
+.left {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: justify; 
+    display: flex;
+    align-items: center;
+    opacity: 0;    
+}
+
+.center {
+    grid-column-start: 3;
+    max-height: 100vh;    
+}
+
+.center img:hover {
+    opacity: .5;
+}
+
+.right {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.animation-left {
+    animation: .5 ease-out 1s forwards fade-in-column-left;
+}
+
+.animation-right {
+    animation: .5 ease-out 1s forwards fade-in-column-right;
+}
+
+.avatar {
+    max-width: 25vw;
+    border-radius: 50%;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(5vh);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in-column-left {
+    0% {
+      opacity: 0;
+      transform: translateX(5vh);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-in-column-right {
+    0% {
+      opacity: 0;
+      transform: translateX(-5vh);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
