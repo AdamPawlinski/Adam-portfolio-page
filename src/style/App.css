@@ -9,6 +9,17 @@ ul {
   list-style: none;
 }
 
+button {
+  border: none;
+  border-radius: 5%; 
+  padding: .5rem;
+  background-color: rgba(0,0,0, .8);
+  color: rgb(255,255,255);
+  max-width: 8vw;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
 .App {
   text-align: center; 
   font-family: "Oswald", sans-serif;  
@@ -18,6 +29,10 @@ ul {
   width: 5vw;
   opacity: .7;
   margin-top: 5vh;
+}
+
+.arrow:hover {
+  color: rgba(0, 38, 252, 0.8);
 }
 
 .scroll-lock {

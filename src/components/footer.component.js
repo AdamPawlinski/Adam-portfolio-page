@@ -50,14 +50,22 @@ class Footer extends React.Component {
         return (
             <div className="footer">
                 <div className="social">
-                    <a href="mailto:adam.pawlinski@gmail.com?subject=Hey, I would like to work with you..."><Mail className="logo" /></a>
-                    <a href="https://www.facebook.com/adam.pawlinski.14" target="_blank"><Facebook className="logo" /></a>
-                    <a href="https://www.linkedin.com/in/adam-pawlinski/" target="_blank"><Linkedin className="logo"/></a>
-                    <a href="https://github.com/AdamPawlinski" target="_blank"><Github className="logo"/></a>   
-                </div>
-                    <a href="../resources/cv-adam-pawlinski.pdf" target="_blank" className="logo cv"><CV/>CV</a> 
-                <h3><button className="open-modal-btn" onClick={this.openModalHandler}>Contact Me</button></h3> 
-                {
+                    <div> 
+                        <a href="mailto:adam.pawlinski@gmail.com?subject=Hey, I would like to work with you..."><Mail className="logo" /></a>
+                    </div>                    
+                    <div> 
+                        <a href="https://www.facebook.com/adam.pawlinski.14" target="_blank"><Facebook className="logo" /></a>
+                    </div>
+                    <div> 
+                        <a href="https://www.linkedin.com/in/adam-pawlinski/" target="_blank"><Linkedin className="logo"/></a>
+                    </div>                    
+                    <div> 
+                        <a href="https://github.com/AdamPawlinski" target="_blank"><Github className="logo"/></a> 
+                    </div>                      
+                </div>                     
+                <button className="open-modal-btn" onClick={this.openModalHandler}>Contact Me</button>
+                <a href="../resources/cv-adam-pawlinski.pdf" target="_blank" className="logo cv"><CV/>CV</a>
+                {/* {
                     this.state.isShown ? 
                     <Modal
                         closeModal={this.closeModal}
@@ -65,7 +73,7 @@ class Footer extends React.Component {
                         onClickOutside={this.onClickOutside}
                     /> 
                     : null
-                }            
+                }             */}
             </div>
         )
     }
