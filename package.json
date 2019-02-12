@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdamPawlinski/portfolio.git"
+    "url": "git+https://github.com/AdamPawlinski/AdamPawlinski.github.io"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +31,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://github.com/AdamPawlinski/portfolio/"
+  "homepage": "https://adampawlinski.github.io/"
 }
