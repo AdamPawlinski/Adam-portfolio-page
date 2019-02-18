@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.e8c3cce6.chunk.css",
-  "main.js": "/static/js/main.3927ca5e.chunk.js",
-  "main.js.map": "/static/js/main.3927ca5e.chunk.js.map",
+  "main.css": "/static/css/main.241ddacc.chunk.css",
+  "main.js": "/static/js/main.454fddc0.chunk.js",
+  "main.js.map": "/static/js/main.454fddc0.chunk.js.map",
   "static/js/1.8fa594dc.chunk.js": "/static/js/1.8fa594dc.chunk.js",
   "static/js/1.8fa594dc.chunk.js.map": "/static/js/1.8fa594dc.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -15,8 +15,8 @@
   "static/media/envelope-square-solid.46bb5905.svg": "/static/media/envelope-square-solid.46bb5905.svg",
   "static/media/file-solid.472300f7.svg": "/static/media/file-solid.472300f7.svg",
   "static/media/cv-adam-pawlinski.pdf": "/static/media/cv-adam-pawlinski.10e305cf.pdf",
-  "static/css/main.e8c3cce6.chunk.css.map": "/static/css/main.e8c3cce6.chunk.css.map",
+  "static/css/main.241ddacc.chunk.css.map": "/static/css/main.241ddacc.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.8dee693ce9f66dbd1a5b82e54fdd9448.js": "/precache-manifest.8dee693ce9f66dbd1a5b82e54fdd9448.js",
+  "precache-manifest.3ecaf1de3b20b3faccd3d0b55e0d8acb.js": "/precache-manifest.3ecaf1de3b20b3faccd3d0b55e0d8acb.js",
   "service-worker.js": "/service-worker.js"
 }
