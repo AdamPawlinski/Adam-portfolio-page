@@ -18,7 +18,7 @@ const Modal = (props) => {
                     <button className="close-modal" onClick={props.closeModal}>
                         <Close />
                     </button>
-                    <form className="form" action="https://formspree.io/adam.pawlinski@gmail.com" method="POST" encType="text/plain">
+                    {/* <form className="form" action="https://formspree.io/adam.pawlinski@gmail.com" method="POST" encType="text/plain">
                         <label className="input-field" htmlFor="name">name:
                             <input type="text" placeholder="name" name="name"/>
                         </label>
@@ -30,7 +30,8 @@ const Modal = (props) => {
                         </label>
                         <input type="text" name="_gotcha" className="hidden-field"/>
                         <input type="submit" value="Send" formTarget="_blank"/>
-                    </form>
+                    </form> */}
+                    <iframe className="form" src="https://docs.google.com/forms/d/e/1FAIpQLSeSXrrAu2yTNYflq2Ib8l4GC-FFAkkmFy5Ze1eNhRLR7d9a5w/viewform?embedded=true">Loading...</iframe>
                 </div>
             </aside>
         </FocusTrap>
