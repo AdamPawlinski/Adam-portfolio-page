@@ -74,7 +74,7 @@ const ProjectItem = () => {
                 projects.map(
                     (item) => {                        
                         return (
-                            <a  className={`item-${item.id}`} key={item.id} href={this.targetLink(item.target)}>  
+                            <a  className={`item-${item.id}`} key={item.id} href={item.target} target="_blank">  
                                 <div className="item">
                                     <h4>{item.name}</h4>
                                     <p>{item.description}</p>
@@ -89,3 +89,4 @@ const ProjectItem = () => {
 }
 
 export default ProjectItem;
+
