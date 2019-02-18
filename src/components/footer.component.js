@@ -1,10 +1,11 @@
 import React, {Link} from 'react';
-import Modal from '../components/modal.component';
+import Modal from './Modal.component';
 import {ReactComponent as Facebook} from '../resources/facebook-square-brands.svg';
 import {ReactComponent as Linkedin} from '../resources/linkedin-brands.svg';
 import {ReactComponent as Github} from '../resources/github-square-brands.svg';
 import {ReactComponent as Mail} from '../resources/envelope-square-solid.svg';
 import {ReactComponent as CV} from '../resources/file-solid.svg';
+import CVfile from '../resources/cv-adam-pawlinski.pdf';
 import FooterStyles from '../style/Footer.css';
 
 class Footer extends React.Component {
@@ -28,6 +29,9 @@ class Footer extends React.Component {
     }
 
     closeModal = () => {
+        this.setState({
+            isShown: false
+        });
         this.toggleScrollLock();
         document.querySelector('.open-modal-btn').focus();
     }
@@ -42,7 +46,7 @@ class Footer extends React.Component {
         if (this.modal && this.modal.contains(e.target))
             {
                 return 
-            }
+            };
         this.closeModal();
     }
 
@@ -64,16 +68,17 @@ class Footer extends React.Component {
                     </div>                      
                 </div>                     
                 <button className="open-modal-btn" onClick={this.openModalHandler}>Contact Me</button>
-                <a href="../resources/cv-adam-pawlinski.pdf" target="_blank" className="logo cv"><CV/>CV</a>
-                {/* {
+                <a href={CVfile} target="_blank" className="logo cv"><CV/>CV</a>
+                {
                     this.state.isShown ? 
                     <Modal
+                        modalRef={(e)=> (this.modal = e)}
                         closeModal={this.closeModal}
                         onKeyDown={this.onEscPress}
                         onClickOutside={this.onClickOutside}
                     /> 
                     : null
-                }             */}
+                }            
             </div>
         )
     }
