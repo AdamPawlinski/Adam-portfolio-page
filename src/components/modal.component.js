@@ -16,7 +16,7 @@ class Modal extends React.Component{
 
     onSubmitForm = () => {
         if (this.state.submitted === true) 
-        window.location.reload(true);
+        window.location.assign(window.location.hostname);
     }
 
     render() {        
