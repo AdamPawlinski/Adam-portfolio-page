@@ -1,6 +1,6 @@
 import React from 'react';
 import image from '../resources/adam.jpg';
-import ProjectItemStyles from '../style/ProjectItem.css';
+import '../style/ProjectItem.css';
 
 const projects = [
     {

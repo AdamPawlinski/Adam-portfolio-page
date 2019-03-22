@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem.component';
-import ProjectsStyles from '../style/Projects.css';
+import '../style/Projects.css';
 import {ReactComponent as Arrow} from '../resources/angle-down-solid.svg';
 
 const Projects = () => {

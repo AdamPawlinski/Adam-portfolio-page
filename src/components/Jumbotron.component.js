@@ -1,6 +1,6 @@
 import React from 'react';
 import avatar from '../resources/adam.jpg';
-import JumbotronStyles from '../style/Jumbotron.css';
+import '../style/Jumbotron.css';
 import {ReactComponent as Arrow} from '../resources/angle-down-solid.svg';
 
 class Jumbotron extends React.Component {

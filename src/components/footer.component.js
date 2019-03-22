@@ -5,7 +5,7 @@ import {ReactComponent as Linkedin} from '../resources/linkedin-brands.svg';
 import {ReactComponent as Github} from '../resources/github-square-brands.svg';
 import {ReactComponent as Mail} from '../resources/envelope-square-solid.svg';
 import {ReactComponent as CV} from '../resources/file-solid.svg';
-import FooterStyles from '../style/Footer.css';
+import '../style/Footer.css';
 
 class Footer extends React.Component {
     constructor(props) {
