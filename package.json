@@ -31,5 +31,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://adampawlinski.github.io/"
+  "homepage": "https://adampawlinski.github.io",
+  "bugs": {
+    "url": "https://github.com/AdamPawlinski/AdamPawlinski/issues"
+  }
 }

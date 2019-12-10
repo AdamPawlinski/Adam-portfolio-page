@@ -45,7 +45,7 @@ class Jumbotron extends React.Component {
                     <Arrow className="arrow"/>
                 </div>
                 <p className={"left " + this.state.animationLeft}>
-                    I'm the front-end developer with above 6-months experience in projects based on JavaScript, React.js technologies.
+                    I'm the front-end developer with about 6-months experience in projects based on JavaScript, React.js technologies.
                     After finishing 6-month intensive bootcamp, during which I learned much about developers tools (like Webpack, GIT, NPM) 
                     I have been working on my own projects and started my first commercial project for financial company. 
                     Please have a look at my projects and CV. I would be pleased to have opportunity to work with you, 
